@@ -25,7 +25,7 @@ The notebook utilizes the `california_housing` dataset from `sklearn.datasets`, 
 
 ## Gradient Descent Equations
 
-The Gradient Descent algorithm iteratively updates the weights to minimize the cost function. The update rule for the weights with a learning rate $ \alpha $ and for $ m $ training examples is given by:
+The Gradient Descent algorithm iteratively updates the weights to minimize the cost function. The update rule for the weights with a learning rate \$\alpha\$ and for \$m\$ training examples is given by:
 
 $$
 \theta := \theta - \frac{\alpha}{m} \times (X^\top \times (\text{prediction} - \text{actual}))
