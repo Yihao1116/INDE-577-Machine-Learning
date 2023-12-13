@@ -20,6 +20,9 @@ Neural Networks are complex structures modeled after the human brain, capable of
 ### Gradient Descent
 Gradient Descent is an optimization algorithm used to minimize the cost function in various machine learning algorithms, particularly in neural networks.
 
+### K Nearest Neighbors
+K-Nearest Neighbors (KNN) is a machine learning algorithm that classifies a data point based on how its neighbors are classified, using the majority vote of its nearest neighbors determined by a distance metric like Euclidean distance.
+
 ### Ensemble Methods
 Ensemble methods combine predictions from several models to improve the overall performance. Techniques such as bagging, boosting, and stacking are included in this category.
 
