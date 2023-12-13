@@ -25,12 +25,12 @@ The notebook utilizes the `california_housing` dataset from `sklearn.datasets`, 
 
 ## Gradient Descent Equations
 
-The Gradient Descent algorithm iteratively updates the weights to minimize the cost function. The update rule for the weights with a learning rate and for training examples is given by:
+The Gradient Descent algorithm iteratively updates the weights to minimize the cost function. The update rule for the weights with a learning rate \\( \\alpha \\) and for \\( m \\) training examples is given by:
 
-theta := theta - (learning rate / number of examples) * (X_transposed * (prediction - actual))
+\\[ \\theta := \\theta - \\left( \\frac{\\alpha}{m} \\right) \\times (X^T \\times (\\text{prediction} - \\text{actual})) \\]
 
 The cost function representing the Mean Squared Error is:
 
-cost = (1 / (2 * number of examples)) * sum((prediction - actual)^2)
+\\[ \\text{cost} = \\frac{1}{2m} \\sum(\\text{prediction} - \\text{actual})^2 \\]
 
-where prediction is the dot product of X and theta.
+where \\( \\text{prediction} \\) is the dot product of \\( X \\) and \\( \\theta \\).
