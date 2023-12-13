@@ -37,4 +37,4 @@ $$
 \text{cost} = \frac{1}{2m} \times \sum((\text{prediction} - \text{actual})^2)
 $$
 
-where prediction is the dot product of $ X $ and $ \theta $.
+where prediction is the dot product of \$X\$ and \$\theta\$.
